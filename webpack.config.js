@@ -8,7 +8,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         path: path.join(__dirname, "static/build"),
-        filename: "[name].js",
+        filename: "bundle.js",
         chunkFilename: "[chunkhash].js"
     },
     module: {
